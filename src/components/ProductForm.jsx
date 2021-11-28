@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-const RESET_VALUES = {id: '', category: '', price: '', name: ''}
+const RESET_VALUES = {id: '', category: '', price: '$', name: ''}
 
 class ProductForm extends Component {
 

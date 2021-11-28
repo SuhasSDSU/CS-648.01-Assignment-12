@@ -37,7 +37,6 @@ class Product extends Component {
     }
     this.setState((prevState) => {
       let products = prevState.products
-      product.price  = '$'+product.price;
       products[product.id] = product
       return { products }
     });
