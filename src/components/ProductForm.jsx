@@ -44,6 +44,8 @@ class ProductForm extends Component {
             this.setState({
                 product: Object.assign({}, RESET_VALUES), errors: {}
             })
+        } else {
+            alert('Please enter all the fields');
         }
     }
 
